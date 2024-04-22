@@ -6,30 +6,30 @@ kaboom({
   letterbox: true,
 });
 
-loadSprite("bg", "sprites/bg.jpeg");
-loadSprite("cat", "/sprites/cat.png");
-loadSprite("ghost", "/sprites/ghost.png");
-loadSprite("grave", "/sprites/grave.png");
-loadSprite("skulls", "/sprites/skulls.png");
-loadSprite("pumpkin", "/sprites/pumpkin.png");
-loadSprite("fence", "/sprites/fence.png");
-loadSprite("fence-corner", "/sprites/fence-left_right.png");
-loadSprite("fence-side", "/sprites/fence-side.png");
-loadSprite("lose-game-bg", "/sprites/lose-game.png");
-loadSprite("game2-bg", "/sprites/game2new-bg.jpg");
-loadFont("Montserrat", "/fonts/Montserrat-Bold.ttf");
-loadSprite("platform", "/sprites/platform-sand.png");
-loadSprite("lava-sprite", "/sprites/lava-sprite.png");
-loadSprite("bg-home", "/sprites/home_window.jpg");
-loadSprite("game1-controls", "/sprites/game1-controls.png");
-loadSprite("blue-jet", "/sprites/blue-jet.png");
-loadSprite("red-jet", "/sprites/red-jet.png");
-loadSprite("red-enemy", "/sprites/red-jet-enemy.png");
-loadSprite("blue-enemy", "/sprites/blue-jet-enemy.png");
-loadSprite("bg-3", "/sprites/bg-3.png");
-loadSprite("floor", "/sprites/floor.png");
-loadSprite("pedestal", "/sprites/pedestal.png");
-loadSprite("game3-controls", "sprites/game3-controls.png");
+loadSprite("bg", "../sprites/bg.jpeg");
+loadSprite("cat", "../sprites/cat.png");
+loadSprite("ghost", "../sprites/ghost.png");
+loadSprite("grave", "../sprites/grave.png");
+loadSprite("skulls", "../sprites/skulls.png");
+loadSprite("pumpkin", "../sprites/pumpkin.png");
+loadSprite("fence", "../sprites/fence.png");
+loadSprite("fence-corner", "../sprites/fence-left_right.png");
+loadSprite("fence-side", "../sprites/fence-side.png");
+loadSprite("lose-game-bg", "../sprites/lose-game.png");
+loadSprite("game2-bg", "../sprites/game2new-bg.jpg");
+loadFont("Montserrat", "../fonts/Montserrat-Bold.ttf");
+loadSprite("platform", "../sprites/platform-sand.png");
+loadSprite("lava-sprite", "..//sprites/lava-sprite.png");
+loadSprite("bg-home", "../sprites/home_window.jpg");
+loadSprite("game1-controls", "../sprites/game1-controls.png");
+loadSprite("blue-jet", "../sprites/blue-jet.png");
+loadSprite("red-jet", "../sprites/red-jet.png");
+loadSprite("red-enemy", "../sprites/red-jet-enemy.png");
+loadSprite("blue-enemy", "../sprites/blue-jet-enemy.png");
+loadSprite("bg-3", "../sprites/bg-3.png");
+loadSprite("floor", "../sprites/floor.png");
+loadSprite("pedestal", "../sprites/pedestal.png");
+loadSprite("game3-controls", "../sprites/game3-controls.png");
 
 const SPEED = 300;
 let ENEMY_SPEED = 180;
@@ -38,7 +38,7 @@ let scoreFirst = 0;
 let scoreSecond = 0;
 const BULLET_SPEED = 800;
 
-loadSprite("cat", "/sprites/cat.png", {
+loadSprite("cat", "../sprites/cat.png", {
   sliceX: 3,
 
   anims: {
@@ -55,7 +55,7 @@ loadSprite("cat", "/sprites/cat.png", {
   },
 });
 
-loadSprite("rabbit", "/sprites/rabbit.png", {
+loadSprite("rabbit", "../sprites/rabbit.png", {
   sliceX: 3,
   sliceY: 1,
   anims: {
