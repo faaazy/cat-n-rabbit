@@ -30,6 +30,7 @@ loadSprite("bg-3", "./sprites/bg-3.png");
 loadSprite("floor", "./sprites/floor.png");
 loadSprite("pedestal", "./sprites/pedestal.png");
 loadSprite("game3-controls", "./sprites/game3-controls.png");
+loadSprite("game2-controls", "./sprites/game2-controls.png");
 
 const SPEED = 300;
 let ENEMY_SPEED = 180;
@@ -369,7 +370,6 @@ scene("lose-game1", () => {
   });
 });
 scene("game2-controls", () => {
-  loadSprite("game2-controls", "./sprites/game2-controls.png");
   add([sprite("game2-controls"), fixed()]);
   onKeyPress("space", () => {
     go("game2");
@@ -854,7 +854,7 @@ scene("game3", () => {
     redScore--;
     redScoreLabel.text = "Счет Красных:" + redScore;
   }
-  let timer = 5;
+  let timer = 60;
   const timerLabel = add([
     text("Времени осталось" + timer),
     pos(width() / 2 - 200, 20),
