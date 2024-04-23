@@ -856,7 +856,7 @@ scene("game3", () => {
   }
   let timer = 60;
   const timerLabel = add([
-    text("Времени осталось" + timer),
+    text("Времени осталось:" + timer),
     pos(width() / 2 - 200, 20),
   ]);
 
